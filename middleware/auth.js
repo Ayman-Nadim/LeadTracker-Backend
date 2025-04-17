@@ -1,5 +1,3 @@
-// In auth.js
-
 const jwt = require('jsonwebtoken');
 
 const authenticate = (req, res, next) => {
@@ -26,3 +24,4 @@ const authorize = (role) => {
 };
 
 module.exports = { authenticate, authorize };
+

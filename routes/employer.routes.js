@@ -8,7 +8,7 @@ const { roleGuard } = require('../middleware/role');
 router.use(authenticate);
 router.use(roleGuard('employer'));
 
-router.get('/dashboard-stats', dashboardStats);
+router.get('/dashboard-status', dashboardStats);
 router.get('/managers', getManagers);
 
 // Autres routes pour gérer les managers et les leads
