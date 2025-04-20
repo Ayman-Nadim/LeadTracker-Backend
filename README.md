@@ -10,7 +10,7 @@ This is the backend of a Lead Tracking Application built using the **MERN stack*
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/lead-tracking-api.git
+git clone https://github.com/Ayman-Nadim/LeadTracker-Backend.git
 cd lead-tracking-api
 npm install
 npm run dev
