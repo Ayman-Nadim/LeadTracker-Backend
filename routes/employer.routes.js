@@ -6,7 +6,7 @@ const { roleGuard } = require('../middleware/role');
 
 // // Protect routes with role-based guard
 router.use(authenticate);
-router.use(roleGuard('employer'));
+// router.use(roleGuard('employer'));
 
 router.get('/dashboard-status', dashboardStats);
 router.get('/managers', getManagers);
